@@ -19,7 +19,7 @@ test('Sign in', async ({ page }) => {
   
 });
 
-test('Sign in_invalid_lenght', async ({ page }) => {
+test('Sign in_invalid_length', async ({ page }) => {
   await login(page, 'guest', 'welcome2qauto');
 
   const h1 = page.locator('h1'); 
